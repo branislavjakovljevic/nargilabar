@@ -189,6 +189,21 @@ function openMenu(evt, menuName) {
 document.getElementById("myLink").click();
 </script>
 
+  	        <script type="text/javascript">
+		var headID = document.getElementsByTagName("head")[0];
+		var newCss = document.createElement('link');
+		newCss.rel = 'stylesheet';
+		newCss.type = 'text/css';
+		window._botUsername = '928324';
+		window._botName = 'Baki';
+		newCss.href = "https://rebot.me/assets/css/bot.css";
+		var newScript = document.createElement('script');
+		newScript.src = "https://rebot.me/assets/js/bot.js";
+		newScript.type = 'text/javascript';
+		headID.appendChild(newScript);
+		headID.appendChild(newCss);
+		</script>
+	    
 </body>
 </html>
   
